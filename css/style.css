@@ -1,0 +1,50 @@
+body {
+    background-color: rgb(255, 228, 218);
+    color: rgba(98, 41, 0, 0.46);
+    text-align: center;
+    font-family: 'Lato', sans-serif
+}
+table{
+    margin: auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color:  #ffede6b0;
+}
+
+.wall {
+    background-color: rgba(74, 31, 0, 0.29);
+}
+
+button{
+    margin: 20px;
+    font-family: 'Lato', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: rgba(98, 41, 0, 0.557);
+    background-color: #ffd5c49a;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+    background-color: rgba(98, 41, 0, 0.557);
+    color:#ffd5c4;
+}
+
+.hide {
+    display: none;
+}

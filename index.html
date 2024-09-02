@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Mister Balls</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap">
+</head>
+
+<body onkeyup="onKey(event)">
+    <h1>Collect those Balls</h1>
+    <div class= "game">
+        <p class="balls-collected hide"> Balls Collected = <span>0</span></p>
+        <p class="balls-neighbor hide"> Balls Near = <span>0</span></p>
+        <table>
+            <tbody class="board"></tbody>
+        </table>
+        <button onclick="onInitGame()">Start</button>
+    </div>
+    <div class="you-won hide">
+        <h2>You Won!</h2>
+        <button onclick="onInitGame()">Restart</button>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
+
